@@ -1,0 +1,45 @@
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFB6C1;
+    
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #FFB6C1;
+    border-radius: 5px;    
+}
+
+main button {
+    border-radius: 10px;
+    border-color: #16161d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main input {
+    border-radius: 10px;
+}
+
+main h2 {
+    font-family: 'Courier New', Courier, monospace;
+    color: #4F4F4F;
+    text-align: center;    
+}
+
+body {
+    background-color:#FFF0F5;
+   
+}
+
+
+
+
