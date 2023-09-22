@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,12 +21,12 @@
         <div class="container">
             <form onsubmit="return false;">
                 <label>Altura:</label><br>
-                <input type="text" placeholder="0,00" id="altura"> <label> m</label>
+                <input type="text" placeholder="0,00" id="altura" class="valueInput"> <label> m</label>
                 <br><br>
                 <label>Peso:</label><br>
-                <input type="text" placeholder="0,00" id="peso"> <label> kg</label>
+                <input type="text" placeholder="0,00" id="peso" class="valueInput"> <label> kg</label>
                 <br><br>
-                <button onclick="calcularImc();">Calcular IMC</button>
+                <button onclick="calcularImc()">Calcular IMC</button>
                 <button type="reset" onclick="resetar();">Limpar</button>
             </form>
             <hr>

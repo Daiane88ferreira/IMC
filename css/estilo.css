@@ -1,45 +1,62 @@
 h1 {
-    font-family: 'Times New Roman', Times, serif;
-    color: #FFB6C1;
-    
+  font-family: 'roboto', Times, serif;
+  color: #ffb6c1;
 }
 
 header h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    background-color: #FFB6C1;
-    border-radius: 5px;    
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: #ffb6c1;
+  border-radius: 5px;
 }
 
 main button {
-    border-radius: 10px;
-    border-color: #16161d;
-    font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  border-color: #16161d;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  cursor: pointer;
+}
+
+main button:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-out;
+  color: #fff;
+  background-color: #ff007f;
 }
 
 main input {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 main h2 {
-    font-family: 'Courier New', Courier, monospace;
-    color: #4F4F4F;
-    text-align: center;    
+  font-family: 'Roboto', Courier, monospace;
+  color: #4f4f4f;
+  text-align: center;
 }
 
 body {
-    background-color:#FFF0F5;
-   
+  background-color: #fff0f5;
 }
 
+label {
+  font-family: 'Roboto', Courier, monospace;
+  caret-color: transparent;
+}
 
+.valueInput {
+  padding: 2px 0px 2px 10px;
+  font-weight: bold;
+}
 
-
+.container {
+  margin-top: 10px;
+}
